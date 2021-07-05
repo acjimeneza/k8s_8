@@ -1,0 +1,7 @@
+Esto es un ejemplo de las notas de instalación
+
+Nombre: {{ .Chart.Name }}.
+Release: {{ .Release.Name }}.
+Fecha: date: {{ now | htmlDate }}
+
+Espero les guste el tutorial.
